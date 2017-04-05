@@ -1,0 +1,26 @@
+
+
+.head{
+  width: 100%;
+  padding: 15px;
+  background-color: $primary;
+  text-align: center;
+  color: white;
+}
+
+body{
+  height: 200%;
+}
+
+//SECTION
+section{
+  width: 100%;
+  height: 100%;
+  padding: 60px;
+}
+
+@for $i from 1 through 4 {
+  .section-#{$i}{
+    background-color: rgba($primary, 0.6 + ($i * 0.1));
+  }
+}

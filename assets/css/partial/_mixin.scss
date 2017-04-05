@@ -1,0 +1,32 @@
+@function em($em) {
+  @return ($em/$base)+em;
+}
+
+@mixin transition($prop) {
+  transition: $prop;
+  -webkit-transition: $prop;
+  -moz-transition: $prop;
+  -o-transition: $prop;
+}
+
+@mixin transform($prop) {
+  transform: $prop;
+  -webkit-transform: $prop;
+  -moz-transform: $prop;
+  -o-transform: $prop;
+}
+
+@mixin background-size($size) {
+  background-size: $size;
+  -moz-background-size: $size;
+  -o-background-size: $size;
+  -webkit-background-size: $size;
+}
+
+@mixin background-image($url){
+  background-image: url($url);
+  -moz-background-image: url($url);
+  -webkit-background-image: url($url);
+  -o-background-image: url($url);
+}
+

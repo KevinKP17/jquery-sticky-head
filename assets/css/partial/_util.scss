@@ -1,0 +1,86 @@
+
+.t-center {
+  text-align: center;
+}
+
+.t-bold {
+  font-weight: bold;
+}
+
+.absolute {
+  position: absolute !important;
+}
+
+.relative {
+  position: relative !important;
+}
+
+.bg--white {
+  background-color: $white;
+  color: $black;
+}
+
+.bg--black {
+  background-color: $black;
+}
+
+.bg--primary {
+  background-color: $primary;
+}
+
+.bg--secondary {
+  background-color: $secondary;
+}
+
+.text--white {
+  color: $white;
+}
+
+.t--primary {
+  color: $primary;
+}
+
+.t--secondary {
+  color: $secondary;
+}
+
+.clearfix {
+  clear: both;
+}
+
+@for $i from 0 through 12 {
+  $n: $i * 5;
+  .pt-#{$n} {
+    padding-top: #{$n}px;
+  }
+
+  .pb-#{$n} {
+    padding-bottom: #{$n}px;
+  }
+
+  .mt-#{$n} {
+    margin-top: #{$n}px;
+  }
+
+  .mb-#{$n} {
+    margin-bottom: #{$n}px;
+  }
+}
+
+.d-m-0 {
+  margin: 0;
+}
+
+.d-p-0{
+  padding: 0;
+}
+
+@media(max-width: 767px) {
+  .m-m-0 {
+    margin: 0;
+  }
+
+  .m-p-0{
+    padding: 0 15px;
+  }
+}	

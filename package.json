@@ -1,0 +1,22 @@
+{
+  "name": "web-starter",
+  "version": "1.0.0",
+  "description": "This is my web-starter kit, easier to make ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KevinKP17",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "gulp-clean-css": "^3.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.11"
+  }
+}
